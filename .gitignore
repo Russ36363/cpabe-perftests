@@ -1,2 +1,5 @@
 #Don't add private key files
 priv*
+
+#Testgen executable
+testgen
