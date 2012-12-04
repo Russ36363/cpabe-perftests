@@ -27,7 +27,7 @@ int main(int argc, char** argv)
       fprintf(file,"%s%d","prop",j);
       if(j<i)
       {
-        fprintf(file,"%s"," and ");
+        fprintf(file,"%s"," ");
       }
       j++;
     }
