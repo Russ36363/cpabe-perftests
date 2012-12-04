@@ -19,7 +19,7 @@ int main(int argc, char** argv)
   for(i=1; i<=100; i++)
   {
     //Horizontal
-    fprintf(file,"%s%d","echo i=",i)
+    fprintf(file,"%s%d","echo i=",i);
     fprintf(file,"%s%d %s","cpabe-keygen -o priv",i," pub_key master_key ");
     j=1;
     while(j<=i)
