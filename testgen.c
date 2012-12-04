@@ -12,7 +12,7 @@ Russ Martin
 
 int main(int argc, char** argv)
 {
-  FILE* outfile;
+  FILE* file;
   int i,j;
   
   file=fopen("testgen.sh","w");
