@@ -20,7 +20,7 @@ int main(int argc, char** argv)
   {
     //Horizontal
     fprintf(file,"%s%d%s","echo i=",i,"\n");
-    fprintf(file,"%s%d %s","cpabe-enc -o file",i,"pub_key testout ");
+    fprintf(file,"%s%d%s","cpabe-enc -o file",i," pub_key testout ");
     j=1;
     while(j<=i)
     {
