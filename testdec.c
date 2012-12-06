@@ -25,7 +25,7 @@ int main(int argc, char** argv)
 
     
     //Vertical
-    fprintf(file,"%s%d%s%d%s%d%s","cpabe-dec -k -o file",i,"n.dec priv",i,"n file",i"n\n");
+    fprintf(file,"%s%d%s%d%s%d%s","cpabe-dec -k -o file",i,"n.dec priv",i,"n file",i,"n\n");
   }
   fclose(file);
   return 0;
