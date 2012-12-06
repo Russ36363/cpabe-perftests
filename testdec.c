@@ -16,7 +16,7 @@ int main(int argc, char** argv)
   FILE* file;
   int i,j;
   
-  file=fopen("testgen.sh","w");
+  file=fopen("testdec.sh","w");
   for(i=1; i<=100; i++)
   {
     //Horizontal
