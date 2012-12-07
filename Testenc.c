@@ -34,7 +34,7 @@ int main(int argc, char** argv)
     fprintf(file,"%s","\"\n");
     
     //Vertical
-    /*
+    
     fprintf(file,"%s%d%s","cpabe-enc -o file",i,"n -k pub_key testout \"");
     if(i<64)
     {
@@ -43,7 +43,7 @@ int main(int argc, char** argv)
     else
     {
       fprintf(file,"%s%llu%s%llu%s","'prop <= ",((unsigned long long)1<<63),"' and 'prop2 <= ",((unsigned long long)1<<(i-64)),"'\"\n");
-    }*/
+    }
   }
   fclose(file);
   return 0;
