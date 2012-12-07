@@ -1,192 +1,192 @@
 echo i=1
 cpabe-enc -o file1 -k pub_key testout "prop1"
-cpabe-enc -o file1n -k pub_key testout "prop <= 1
+cpabe-enc -o file1n -k pub_key testout "prop <= 1"
 echo i=2
 cpabe-enc -o file2 -k pub_key testout "prop1 and prop2"
-cpabe-enc -o file2n -k pub_key testout "prop <= 2
+cpabe-enc -o file2n -k pub_key testout "prop <= 2"
 echo i=3
 cpabe-enc -o file3 -k pub_key testout "prop1 and prop2 and prop3"
-cpabe-enc -o file3n -k pub_key testout "prop <= 4
+cpabe-enc -o file3n -k pub_key testout "prop <= 4"
 echo i=4
 cpabe-enc -o file4 -k pub_key testout "prop1 and prop2 and prop3 and prop4"
-cpabe-enc -o file4n -k pub_key testout "prop <= 8
+cpabe-enc -o file4n -k pub_key testout "prop <= 8"
 echo i=5
 cpabe-enc -o file5 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5"
-cpabe-enc -o file5n -k pub_key testout "prop <= 16
+cpabe-enc -o file5n -k pub_key testout "prop <= 16"
 echo i=6
 cpabe-enc -o file6 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6"
-cpabe-enc -o file6n -k pub_key testout "prop <= 32
+cpabe-enc -o file6n -k pub_key testout "prop <= 32"
 echo i=7
 cpabe-enc -o file7 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7"
-cpabe-enc -o file7n -k pub_key testout "prop <= 64
+cpabe-enc -o file7n -k pub_key testout "prop <= 64"
 echo i=8
 cpabe-enc -o file8 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8"
-cpabe-enc -o file8n -k pub_key testout "prop <= 128
+cpabe-enc -o file8n -k pub_key testout "prop <= 128"
 echo i=9
 cpabe-enc -o file9 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9"
-cpabe-enc -o file9n -k pub_key testout "prop <= 256
+cpabe-enc -o file9n -k pub_key testout "prop <= 256"
 echo i=10
 cpabe-enc -o file10 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10"
-cpabe-enc -o file10n -k pub_key testout "prop <= 512
+cpabe-enc -o file10n -k pub_key testout "prop <= 512"
 echo i=11
 cpabe-enc -o file11 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11"
-cpabe-enc -o file11n -k pub_key testout "prop <= 1024
+cpabe-enc -o file11n -k pub_key testout "prop <= 1024"
 echo i=12
 cpabe-enc -o file12 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12"
-cpabe-enc -o file12n -k pub_key testout "prop <= 2048
+cpabe-enc -o file12n -k pub_key testout "prop <= 2048"
 echo i=13
 cpabe-enc -o file13 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13"
-cpabe-enc -o file13n -k pub_key testout "prop <= 4096
+cpabe-enc -o file13n -k pub_key testout "prop <= 4096"
 echo i=14
 cpabe-enc -o file14 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14"
-cpabe-enc -o file14n -k pub_key testout "prop <= 8192
+cpabe-enc -o file14n -k pub_key testout "prop <= 8192"
 echo i=15
 cpabe-enc -o file15 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15"
-cpabe-enc -o file15n -k pub_key testout "prop <= 16384
+cpabe-enc -o file15n -k pub_key testout "prop <= 16384"
 echo i=16
 cpabe-enc -o file16 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16"
-cpabe-enc -o file16n -k pub_key testout "prop <= 32768
+cpabe-enc -o file16n -k pub_key testout "prop <= 32768"
 echo i=17
 cpabe-enc -o file17 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17"
-cpabe-enc -o file17n -k pub_key testout "prop <= 65536
+cpabe-enc -o file17n -k pub_key testout "prop <= 65536"
 echo i=18
 cpabe-enc -o file18 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18"
-cpabe-enc -o file18n -k pub_key testout "prop <= 131072
+cpabe-enc -o file18n -k pub_key testout "prop <= 131072"
 echo i=19
 cpabe-enc -o file19 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19"
-cpabe-enc -o file19n -k pub_key testout "prop <= 262144
+cpabe-enc -o file19n -k pub_key testout "prop <= 262144"
 echo i=20
 cpabe-enc -o file20 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20"
-cpabe-enc -o file20n -k pub_key testout "prop <= 524288
+cpabe-enc -o file20n -k pub_key testout "prop <= 524288"
 echo i=21
 cpabe-enc -o file21 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21"
-cpabe-enc -o file21n -k pub_key testout "prop <= 1048576
+cpabe-enc -o file21n -k pub_key testout "prop <= 1048576"
 echo i=22
 cpabe-enc -o file22 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22"
-cpabe-enc -o file22n -k pub_key testout "prop <= 2097152
+cpabe-enc -o file22n -k pub_key testout "prop <= 2097152"
 echo i=23
 cpabe-enc -o file23 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23"
-cpabe-enc -o file23n -k pub_key testout "prop <= 4194304
+cpabe-enc -o file23n -k pub_key testout "prop <= 4194304"
 echo i=24
 cpabe-enc -o file24 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23 and prop24"
-cpabe-enc -o file24n -k pub_key testout "prop <= 8388608
+cpabe-enc -o file24n -k pub_key testout "prop <= 8388608"
 echo i=25
 cpabe-enc -o file25 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23 and prop24 and prop25"
-cpabe-enc -o file25n -k pub_key testout "prop <= 16777216
+cpabe-enc -o file25n -k pub_key testout "prop <= 16777216"
 echo i=26
 cpabe-enc -o file26 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23 and prop24 and prop25 and prop26"
-cpabe-enc -o file26n -k pub_key testout "prop <= 33554432
+cpabe-enc -o file26n -k pub_key testout "prop <= 33554432"
 echo i=27
 cpabe-enc -o file27 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23 and prop24 and prop25 and prop26 and prop27"
-cpabe-enc -o file27n -k pub_key testout "prop <= 67108864
+cpabe-enc -o file27n -k pub_key testout "prop <= 67108864"
 echo i=28
 cpabe-enc -o file28 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23 and prop24 and prop25 and prop26 and prop27 and prop28"
-cpabe-enc -o file28n -k pub_key testout "prop <= 134217728
+cpabe-enc -o file28n -k pub_key testout "prop <= 134217728"
 echo i=29
 cpabe-enc -o file29 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23 and prop24 and prop25 and prop26 and prop27 and prop28 and prop29"
-cpabe-enc -o file29n -k pub_key testout "prop <= 268435456
+cpabe-enc -o file29n -k pub_key testout "prop <= 268435456"
 echo i=30
 cpabe-enc -o file30 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23 and prop24 and prop25 and prop26 and prop27 and prop28 and prop29 and prop30"
-cpabe-enc -o file30n -k pub_key testout "prop <= 536870912
+cpabe-enc -o file30n -k pub_key testout "prop <= 536870912"
 echo i=31
 cpabe-enc -o file31 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23 and prop24 and prop25 and prop26 and prop27 and prop28 and prop29 and prop30 and prop31"
-cpabe-enc -o file31n -k pub_key testout "prop <= 1073741824
+cpabe-enc -o file31n -k pub_key testout "prop <= 1073741824"
 echo i=32
 cpabe-enc -o file32 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23 and prop24 and prop25 and prop26 and prop27 and prop28 and prop29 and prop30 and prop31 and prop32"
-cpabe-enc -o file32n -k pub_key testout "prop <= 2147483648
+cpabe-enc -o file32n -k pub_key testout "prop <= 2147483648"
 echo i=33
 cpabe-enc -o file33 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23 and prop24 and prop25 and prop26 and prop27 and prop28 and prop29 and prop30 and prop31 and prop32 and prop33"
-cpabe-enc -o file33n -k pub_key testout "prop <= 4294967296
+cpabe-enc -o file33n -k pub_key testout "prop <= 4294967296"
 echo i=34
 cpabe-enc -o file34 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23 and prop24 and prop25 and prop26 and prop27 and prop28 and prop29 and prop30 and prop31 and prop32 and prop33 and prop34"
-cpabe-enc -o file34n -k pub_key testout "prop <= 8589934592
+cpabe-enc -o file34n -k pub_key testout "prop <= 8589934592"
 echo i=35
 cpabe-enc -o file35 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23 and prop24 and prop25 and prop26 and prop27 and prop28 and prop29 and prop30 and prop31 and prop32 and prop33 and prop34 and prop35"
-cpabe-enc -o file35n -k pub_key testout "prop <= 17179869184
+cpabe-enc -o file35n -k pub_key testout "prop <= 17179869184"
 echo i=36
 cpabe-enc -o file36 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23 and prop24 and prop25 and prop26 and prop27 and prop28 and prop29 and prop30 and prop31 and prop32 and prop33 and prop34 and prop35 and prop36"
-cpabe-enc -o file36n -k pub_key testout "prop <= 34359738368
+cpabe-enc -o file36n -k pub_key testout "prop <= 34359738368"
 echo i=37
 cpabe-enc -o file37 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23 and prop24 and prop25 and prop26 and prop27 and prop28 and prop29 and prop30 and prop31 and prop32 and prop33 and prop34 and prop35 and prop36 and prop37"
-cpabe-enc -o file37n -k pub_key testout "prop <= 68719476736
+cpabe-enc -o file37n -k pub_key testout "prop <= 68719476736"
 echo i=38
 cpabe-enc -o file38 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23 and prop24 and prop25 and prop26 and prop27 and prop28 and prop29 and prop30 and prop31 and prop32 and prop33 and prop34 and prop35 and prop36 and prop37 and prop38"
-cpabe-enc -o file38n -k pub_key testout "prop <= 137438953472
+cpabe-enc -o file38n -k pub_key testout "prop <= 137438953472"
 echo i=39
 cpabe-enc -o file39 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23 and prop24 and prop25 and prop26 and prop27 and prop28 and prop29 and prop30 and prop31 and prop32 and prop33 and prop34 and prop35 and prop36 and prop37 and prop38 and prop39"
-cpabe-enc -o file39n -k pub_key testout "prop <= 274877906944
+cpabe-enc -o file39n -k pub_key testout "prop <= 274877906944"
 echo i=40
 cpabe-enc -o file40 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23 and prop24 and prop25 and prop26 and prop27 and prop28 and prop29 and prop30 and prop31 and prop32 and prop33 and prop34 and prop35 and prop36 and prop37 and prop38 and prop39 and prop40"
-cpabe-enc -o file40n -k pub_key testout "prop <= 549755813888
+cpabe-enc -o file40n -k pub_key testout "prop <= 549755813888"
 echo i=41
 cpabe-enc -o file41 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23 and prop24 and prop25 and prop26 and prop27 and prop28 and prop29 and prop30 and prop31 and prop32 and prop33 and prop34 and prop35 and prop36 and prop37 and prop38 and prop39 and prop40 and prop41"
-cpabe-enc -o file41n -k pub_key testout "prop <= 1099511627776
+cpabe-enc -o file41n -k pub_key testout "prop <= 1099511627776"
 echo i=42
 cpabe-enc -o file42 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23 and prop24 and prop25 and prop26 and prop27 and prop28 and prop29 and prop30 and prop31 and prop32 and prop33 and prop34 and prop35 and prop36 and prop37 and prop38 and prop39 and prop40 and prop41 and prop42"
-cpabe-enc -o file42n -k pub_key testout "prop <= 2199023255552
+cpabe-enc -o file42n -k pub_key testout "prop <= 2199023255552"
 echo i=43
 cpabe-enc -o file43 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23 and prop24 and prop25 and prop26 and prop27 and prop28 and prop29 and prop30 and prop31 and prop32 and prop33 and prop34 and prop35 and prop36 and prop37 and prop38 and prop39 and prop40 and prop41 and prop42 and prop43"
-cpabe-enc -o file43n -k pub_key testout "prop <= 4398046511104
+cpabe-enc -o file43n -k pub_key testout "prop <= 4398046511104"
 echo i=44
 cpabe-enc -o file44 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23 and prop24 and prop25 and prop26 and prop27 and prop28 and prop29 and prop30 and prop31 and prop32 and prop33 and prop34 and prop35 and prop36 and prop37 and prop38 and prop39 and prop40 and prop41 and prop42 and prop43 and prop44"
-cpabe-enc -o file44n -k pub_key testout "prop <= 8796093022208
+cpabe-enc -o file44n -k pub_key testout "prop <= 8796093022208"
 echo i=45
 cpabe-enc -o file45 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23 and prop24 and prop25 and prop26 and prop27 and prop28 and prop29 and prop30 and prop31 and prop32 and prop33 and prop34 and prop35 and prop36 and prop37 and prop38 and prop39 and prop40 and prop41 and prop42 and prop43 and prop44 and prop45"
-cpabe-enc -o file45n -k pub_key testout "prop <= 17592186044416
+cpabe-enc -o file45n -k pub_key testout "prop <= 17592186044416"
 echo i=46
 cpabe-enc -o file46 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23 and prop24 and prop25 and prop26 and prop27 and prop28 and prop29 and prop30 and prop31 and prop32 and prop33 and prop34 and prop35 and prop36 and prop37 and prop38 and prop39 and prop40 and prop41 and prop42 and prop43 and prop44 and prop45 and prop46"
-cpabe-enc -o file46n -k pub_key testout "prop <= 35184372088832
+cpabe-enc -o file46n -k pub_key testout "prop <= 35184372088832"
 echo i=47
 cpabe-enc -o file47 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23 and prop24 and prop25 and prop26 and prop27 and prop28 and prop29 and prop30 and prop31 and prop32 and prop33 and prop34 and prop35 and prop36 and prop37 and prop38 and prop39 and prop40 and prop41 and prop42 and prop43 and prop44 and prop45 and prop46 and prop47"
-cpabe-enc -o file47n -k pub_key testout "prop <= 70368744177664
+cpabe-enc -o file47n -k pub_key testout "prop <= 70368744177664"
 echo i=48
 cpabe-enc -o file48 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23 and prop24 and prop25 and prop26 and prop27 and prop28 and prop29 and prop30 and prop31 and prop32 and prop33 and prop34 and prop35 and prop36 and prop37 and prop38 and prop39 and prop40 and prop41 and prop42 and prop43 and prop44 and prop45 and prop46 and prop47 and prop48"
-cpabe-enc -o file48n -k pub_key testout "prop <= 140737488355328
+cpabe-enc -o file48n -k pub_key testout "prop <= 140737488355328"
 echo i=49
 cpabe-enc -o file49 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23 and prop24 and prop25 and prop26 and prop27 and prop28 and prop29 and prop30 and prop31 and prop32 and prop33 and prop34 and prop35 and prop36 and prop37 and prop38 and prop39 and prop40 and prop41 and prop42 and prop43 and prop44 and prop45 and prop46 and prop47 and prop48 and prop49"
-cpabe-enc -o file49n -k pub_key testout "prop <= 281474976710656
+cpabe-enc -o file49n -k pub_key testout "prop <= 281474976710656"
 echo i=50
 cpabe-enc -o file50 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23 and prop24 and prop25 and prop26 and prop27 and prop28 and prop29 and prop30 and prop31 and prop32 and prop33 and prop34 and prop35 and prop36 and prop37 and prop38 and prop39 and prop40 and prop41 and prop42 and prop43 and prop44 and prop45 and prop46 and prop47 and prop48 and prop49 and prop50"
-cpabe-enc -o file50n -k pub_key testout "prop <= 562949953421312
+cpabe-enc -o file50n -k pub_key testout "prop <= 562949953421312"
 echo i=51
 cpabe-enc -o file51 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23 and prop24 and prop25 and prop26 and prop27 and prop28 and prop29 and prop30 and prop31 and prop32 and prop33 and prop34 and prop35 and prop36 and prop37 and prop38 and prop39 and prop40 and prop41 and prop42 and prop43 and prop44 and prop45 and prop46 and prop47 and prop48 and prop49 and prop50 and prop51"
-cpabe-enc -o file51n -k pub_key testout "prop <= 1125899906842624
+cpabe-enc -o file51n -k pub_key testout "prop <= 1125899906842624"
 echo i=52
 cpabe-enc -o file52 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23 and prop24 and prop25 and prop26 and prop27 and prop28 and prop29 and prop30 and prop31 and prop32 and prop33 and prop34 and prop35 and prop36 and prop37 and prop38 and prop39 and prop40 and prop41 and prop42 and prop43 and prop44 and prop45 and prop46 and prop47 and prop48 and prop49 and prop50 and prop51 and prop52"
-cpabe-enc -o file52n -k pub_key testout "prop <= 2251799813685248
+cpabe-enc -o file52n -k pub_key testout "prop <= 2251799813685248"
 echo i=53
 cpabe-enc -o file53 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23 and prop24 and prop25 and prop26 and prop27 and prop28 and prop29 and prop30 and prop31 and prop32 and prop33 and prop34 and prop35 and prop36 and prop37 and prop38 and prop39 and prop40 and prop41 and prop42 and prop43 and prop44 and prop45 and prop46 and prop47 and prop48 and prop49 and prop50 and prop51 and prop52 and prop53"
-cpabe-enc -o file53n -k pub_key testout "prop <= 4503599627370496
+cpabe-enc -o file53n -k pub_key testout "prop <= 4503599627370496"
 echo i=54
 cpabe-enc -o file54 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23 and prop24 and prop25 and prop26 and prop27 and prop28 and prop29 and prop30 and prop31 and prop32 and prop33 and prop34 and prop35 and prop36 and prop37 and prop38 and prop39 and prop40 and prop41 and prop42 and prop43 and prop44 and prop45 and prop46 and prop47 and prop48 and prop49 and prop50 and prop51 and prop52 and prop53 and prop54"
-cpabe-enc -o file54n -k pub_key testout "prop <= 9007199254740992
+cpabe-enc -o file54n -k pub_key testout "prop <= 9007199254740992"
 echo i=55
 cpabe-enc -o file55 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23 and prop24 and prop25 and prop26 and prop27 and prop28 and prop29 and prop30 and prop31 and prop32 and prop33 and prop34 and prop35 and prop36 and prop37 and prop38 and prop39 and prop40 and prop41 and prop42 and prop43 and prop44 and prop45 and prop46 and prop47 and prop48 and prop49 and prop50 and prop51 and prop52 and prop53 and prop54 and prop55"
-cpabe-enc -o file55n -k pub_key testout "prop <= 18014398509481984
+cpabe-enc -o file55n -k pub_key testout "prop <= 18014398509481984"
 echo i=56
 cpabe-enc -o file56 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23 and prop24 and prop25 and prop26 and prop27 and prop28 and prop29 and prop30 and prop31 and prop32 and prop33 and prop34 and prop35 and prop36 and prop37 and prop38 and prop39 and prop40 and prop41 and prop42 and prop43 and prop44 and prop45 and prop46 and prop47 and prop48 and prop49 and prop50 and prop51 and prop52 and prop53 and prop54 and prop55 and prop56"
-cpabe-enc -o file56n -k pub_key testout "prop <= 36028797018963968
+cpabe-enc -o file56n -k pub_key testout "prop <= 36028797018963968"
 echo i=57
 cpabe-enc -o file57 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23 and prop24 and prop25 and prop26 and prop27 and prop28 and prop29 and prop30 and prop31 and prop32 and prop33 and prop34 and prop35 and prop36 and prop37 and prop38 and prop39 and prop40 and prop41 and prop42 and prop43 and prop44 and prop45 and prop46 and prop47 and prop48 and prop49 and prop50 and prop51 and prop52 and prop53 and prop54 and prop55 and prop56 and prop57"
-cpabe-enc -o file57n -k pub_key testout "prop <= 72057594037927936
+cpabe-enc -o file57n -k pub_key testout "prop <= 72057594037927936"
 echo i=58
 cpabe-enc -o file58 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23 and prop24 and prop25 and prop26 and prop27 and prop28 and prop29 and prop30 and prop31 and prop32 and prop33 and prop34 and prop35 and prop36 and prop37 and prop38 and prop39 and prop40 and prop41 and prop42 and prop43 and prop44 and prop45 and prop46 and prop47 and prop48 and prop49 and prop50 and prop51 and prop52 and prop53 and prop54 and prop55 and prop56 and prop57 and prop58"
-cpabe-enc -o file58n -k pub_key testout "prop <= 144115188075855872
+cpabe-enc -o file58n -k pub_key testout "prop <= 144115188075855872"
 echo i=59
 cpabe-enc -o file59 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23 and prop24 and prop25 and prop26 and prop27 and prop28 and prop29 and prop30 and prop31 and prop32 and prop33 and prop34 and prop35 and prop36 and prop37 and prop38 and prop39 and prop40 and prop41 and prop42 and prop43 and prop44 and prop45 and prop46 and prop47 and prop48 and prop49 and prop50 and prop51 and prop52 and prop53 and prop54 and prop55 and prop56 and prop57 and prop58 and prop59"
-cpabe-enc -o file59n -k pub_key testout "prop <= 288230376151711744
+cpabe-enc -o file59n -k pub_key testout "prop <= 288230376151711744"
 echo i=60
 cpabe-enc -o file60 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23 and prop24 and prop25 and prop26 and prop27 and prop28 and prop29 and prop30 and prop31 and prop32 and prop33 and prop34 and prop35 and prop36 and prop37 and prop38 and prop39 and prop40 and prop41 and prop42 and prop43 and prop44 and prop45 and prop46 and prop47 and prop48 and prop49 and prop50 and prop51 and prop52 and prop53 and prop54 and prop55 and prop56 and prop57 and prop58 and prop59 and prop60"
-cpabe-enc -o file60n -k pub_key testout "prop <= 576460752303423488
+cpabe-enc -o file60n -k pub_key testout "prop <= 576460752303423488"
 echo i=61
 cpabe-enc -o file61 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23 and prop24 and prop25 and prop26 and prop27 and prop28 and prop29 and prop30 and prop31 and prop32 and prop33 and prop34 and prop35 and prop36 and prop37 and prop38 and prop39 and prop40 and prop41 and prop42 and prop43 and prop44 and prop45 and prop46 and prop47 and prop48 and prop49 and prop50 and prop51 and prop52 and prop53 and prop54 and prop55 and prop56 and prop57 and prop58 and prop59 and prop60 and prop61"
-cpabe-enc -o file61n -k pub_key testout "prop <= 1152921504606846976
+cpabe-enc -o file61n -k pub_key testout "prop <= 1152921504606846976"
 echo i=62
 cpabe-enc -o file62 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23 and prop24 and prop25 and prop26 and prop27 and prop28 and prop29 and prop30 and prop31 and prop32 and prop33 and prop34 and prop35 and prop36 and prop37 and prop38 and prop39 and prop40 and prop41 and prop42 and prop43 and prop44 and prop45 and prop46 and prop47 and prop48 and prop49 and prop50 and prop51 and prop52 and prop53 and prop54 and prop55 and prop56 and prop57 and prop58 and prop59 and prop60 and prop61 and prop62"
-cpabe-enc -o file62n -k pub_key testout "prop <= 2305843009213693952
+cpabe-enc -o file62n -k pub_key testout "prop <= 2305843009213693952"
 echo i=63
 cpabe-enc -o file63 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23 and prop24 and prop25 and prop26 and prop27 and prop28 and prop29 and prop30 and prop31 and prop32 and prop33 and prop34 and prop35 and prop36 and prop37 and prop38 and prop39 and prop40 and prop41 and prop42 and prop43 and prop44 and prop45 and prop46 and prop47 and prop48 and prop49 and prop50 and prop51 and prop52 and prop53 and prop54 and prop55 and prop56 and prop57 and prop58 and prop59 and prop60 and prop61 and prop62 and prop63"
-cpabe-enc -o file63n -k pub_key testout "prop <= 4611686018427387904
+cpabe-enc -o file63n -k pub_key testout "prop <= 4611686018427387904"
 echo i=64
 cpabe-enc -o file64 -k pub_key testout "prop1 and prop2 and prop3 and prop4 and prop5 and prop6 and prop7 and prop8 and prop9 and prop10 and prop11 and prop12 and prop13 and prop14 and prop15 and prop16 and prop17 and prop18 and prop19 and prop20 and prop21 and prop22 and prop23 and prop24 and prop25 and prop26 and prop27 and prop28 and prop29 and prop30 and prop31 and prop32 and prop33 and prop34 and prop35 and prop36 and prop37 and prop38 and prop39 and prop40 and prop41 and prop42 and prop43 and prop44 and prop45 and prop46 and prop47 and prop48 and prop49 and prop50 and prop51 and prop52 and prop53 and prop54 and prop55 and prop56 and prop57 and prop58 and prop59 and prop60 and prop61 and prop62 and prop63 and prop64"
 cpabe-enc -o file64n -k pub_key testout "prop <= 9223372036854775808 and prop2 <= 1"
