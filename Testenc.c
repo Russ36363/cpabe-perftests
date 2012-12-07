@@ -42,7 +42,7 @@ int main(int argc, char** argv)
     }
     else
     {
-      fprintf(file,"%s%llu%s%d%s%llu%s%d%s","prop <=",((unsigned long long)1<<63),"#",i," and prop2 <=",((unsigned long long)1<<(i-64)),,"#",i,"\"\n");
+      fprintf(file,"%s%llu%s%d%s%llu%s%d%s","prop <=",((unsigned long long)1<<63),"#",i," and prop2 <=",((unsigned long long)1<<(i-64)),"#",i,"\"\n");
     }
   }
   fclose(file);
