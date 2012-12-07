@@ -21,11 +21,11 @@ int main(int argc, char** argv)
   {
     //Horizontal
     fprintf(file,"%s%d%s","echo i=",i,"\n");
-    fprintf(file,"%s%d%s%d%s%d%s","cpabe-dec -k -o file",i,".dec priv",i," file",i,"\n");
+    fprintf(file,"%s%d%s%d%s%d%s","cpabe-dec -k -o file",i,".dec pub_key priv",i," file",i,"\n");
 
     
     //Vertical
-    fprintf(file,"%s%d%s%d%s%d%s","cpabe-dec -k -o file",i,"n.dec priv",i,"n file",i,"n\n");
+    fprintf(file,"%s%d%s%d%s%d%s","cpabe-dec -k -o file",i,"n.dec pub_key priv",i,"n file",i,"n\n");
   }
   fclose(file);
   return 0;
