@@ -20,7 +20,7 @@ int main(int argc, char** argv)
   {
     //Horizontal
     fprintf(file,"%s%d%s","echo i=",i,"\n");
-    fprintf(file,"%s%d%s","cpabe-enc -o file",i," pub_key testout ");
+    fprintf(file,"%s%d%s","cpabe-enc -o file",i," pub_key testout \n");
     j=1;
     while(j<=i)
     {
@@ -32,9 +32,10 @@ int main(int argc, char** argv)
       j++;
     }
     fprintf(file,"%s","\n");
+    //Send Control-D to end input
     
     //Vertical
-    fprintf(file,"%s%d%s","cpabe-enc -o file",i,"n pub_key testout ");
+    fprintf(file,"%s%d%s","cpabe-enc -o file",i,"n pub_key testout \n");
     if(i<64)
     {
       fprintf(file,"%s%llu%s","\"prop <=",((unsigned long long)1<<(i-1)),"\"\n");
