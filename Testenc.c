@@ -38,11 +38,11 @@ int main(int argc, char** argv)
     fprintf(file,"%s%d%s","cpabe-enc -o file",i,"n -k pub_key testout \"");
     if(i<64)
     {
-      fprintf(file,"%s%llu%s","prop <= ",((unsigned long long)1<<(i-1)),"\"\n");
+      fprintf(file,"%s%llu%s","prop <= 2#",i,"\"\n");
     }
     else
     {
-      fprintf(file,"%s%llu%s%llu%s","prop <= ",((unsigned long long)1<<63)," and prop2 <= ",((unsigned long long)1<<(i-64)),"\"\n");
+      fprintf(file,"%s%d%s","prop <= 2#63, and prop2 <= 2#",(i-63),"\"\n");
     }
   }
   fclose(file);
